@@ -1,0 +1,20 @@
+{
+  "name": "jobfilters",
+  "version": "0.1.0",
+  "description": "Userscripts to filter jobs on LinkedIn & Who is Hiring?",
+  "scripts": {
+    "build": "tsc src/*.ts --outDir ./dist",
+    "build:watch": "tsc src/*.ts --outDir ./dist -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianmemije/jobfilters"
+  },
+  "keywords": [
+    "linkedin",
+    "whoishiring",
+    "userscripts"
+  ],
+  "author": "Christian Memije",
+  "license": "MIT"
+}
